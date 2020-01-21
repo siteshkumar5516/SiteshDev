@@ -1,0 +1,5 @@
+C:\Users\SiteshKumar\source\repos\TestB2c\GraphApi\bin\Debug\netstandard2.0\GraphApi.deps.json
+C:\Users\SiteshKumar\source\repos\TestB2c\GraphApi\bin\Debug\netstandard2.0\GraphApi.dll
+C:\Users\SiteshKumar\source\repos\TestB2c\GraphApi\obj\Debug\netstandard2.0\GraphApi.csprojAssemblyReference.cache
+C:\Users\SiteshKumar\source\repos\TestB2c\GraphApi\obj\Debug\netstandard2.0\GraphApi.AssemblyInfoInputs.cache
+C:\Users\SiteshKumar\source\repos\TestB2c\GraphApi\obj\Debug\netstandard2.0\GraphApi.AssemblyInfo.cs
