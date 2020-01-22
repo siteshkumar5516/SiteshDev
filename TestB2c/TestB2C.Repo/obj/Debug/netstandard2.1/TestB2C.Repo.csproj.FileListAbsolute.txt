@@ -1,0 +1,11 @@
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\bin\Debug\netstandard2.1\TestB2C.Repo.deps.json
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\bin\Debug\netstandard2.1\TestB2C.Repo.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\bin\Debug\netstandard2.1\TestB2C.Repo.pdb
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\bin\Debug\netstandard2.1\Models.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\bin\Debug\netstandard2.1\Models.pdb
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\obj\Debug\netstandard2.1\TestB2C.Repo.csprojAssemblyReference.cache
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\obj\Debug\netstandard2.1\TestB2C.Repo.AssemblyInfoInputs.cache
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\obj\Debug\netstandard2.1\TestB2C.Repo.AssemblyInfo.cs
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\obj\Debug\netstandard2.1\TestB2C.Repo.csproj.CopyComplete
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\obj\Debug\netstandard2.1\TestB2C.Repo.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\TestB2C.Repo\obj\Debug\netstandard2.1\TestB2C.Repo.pdb

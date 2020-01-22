@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SiteshKumar\\source\\repos\\TestB2c\\GraphApi\\GraphApi.csproj": {}
+    "C:\\Users\\SiteshKumar\\New folder\\SiteshDev\\TestB2c\\GraphApi\\GraphApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SiteshKumar\\source\\repos\\TestB2c\\GraphApi\\GraphApi.csproj": {
+    "C:\\Users\\SiteshKumar\\New folder\\SiteshDev\\TestB2c\\GraphApi\\GraphApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SiteshKumar\\source\\repos\\TestB2c\\GraphApi\\GraphApi.csproj",
+        "projectUniqueName": "C:\\Users\\SiteshKumar\\New folder\\SiteshDev\\TestB2c\\GraphApi\\GraphApi.csproj",
         "projectName": "GraphApi",
-        "projectPath": "C:\\Users\\SiteshKumar\\source\\repos\\TestB2c\\GraphApi\\GraphApi.csproj",
+        "projectPath": "C:\\Users\\SiteshKumar\\New folder\\SiteshDev\\TestB2c\\GraphApi\\GraphApi.csproj",
         "packagesPath": "C:\\Users\\SiteshKumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SiteshKumar\\source\\repos\\TestB2c\\GraphApi\\obj\\",
+        "outputPath": "C:\\Users\\SiteshKumar\\New folder\\SiteshDev\\TestB2c\\GraphApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,5 @@
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\B2cRepo\bin\Debug\netstandard2.0\B2cRepo.deps.json
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\B2cRepo\bin\Debug\netstandard2.0\B2cRepo.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\B2cRepo\obj\Debug\netstandard2.0\B2cRepo.csprojAssemblyReference.cache
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\B2cRepo\obj\Debug\netstandard2.0\B2cRepo.AssemblyInfoInputs.cache
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\B2cRepo\obj\Debug\netstandard2.0\B2cRepo.AssemblyInfo.cs

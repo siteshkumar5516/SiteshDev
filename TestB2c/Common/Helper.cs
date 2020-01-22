@@ -12,7 +12,7 @@ namespace Common
 
             {
                 var appsettingValue = Environment.GetEnvironmentVariable("b2c:Tenant");
-                return !string.IsNullOrEmpty(appsettingValue) ? appsettingValue : ConfigurationManager.AppSettings.Get("b2c:Tenant");
+                return !string.IsNullOrEmpty(appsettingValue) ? appsettingValue : System.Configuration.ConfigurationManager.AppSettings.Get("b2c:Tenant");
             }
         }
         public static string ClientId
@@ -21,7 +21,7 @@ namespace Common
 
             {
                 var appsettingValue = Environment.GetEnvironmentVariable("b2c:ClientId");
-                return !string.IsNullOrEmpty(appsettingValue) ? appsettingValue : ConfigurationManager.AppSettings.Get("b2c:ClientId");
+                return !string.IsNullOrEmpty(appsettingValue) ? appsettingValue : System.Configuration.ConfigurationManager.AppSettings.Get("b2c:ClientId");
             }
         }
         public static string ClientSecret
@@ -30,7 +30,7 @@ namespace Common
 
             {
                 var appsettingValue = Environment.GetEnvironmentVariable("b2c:ClientSecret");
-                return !string.IsNullOrEmpty(appsettingValue) ? appsettingValue : ConfigurationManager.AppSettings.Get("b2c:ClientSecret");
+                return !string.IsNullOrEmpty(appsettingValue) ? appsettingValue : System.Configuration.ConfigurationManager.AppSettings.Get("b2c:ClientSecret");
             }
         }
         public static string KeyVault
@@ -39,7 +39,7 @@ namespace Common
 
             {
                 var appsettingValue = Environment.GetEnvironmentVariable("Keyvault");
-                return !string.IsNullOrEmpty(appsettingValue) ? appsettingValue : ConfigurationManager.AppSettings.Get("Keyvault");
+                return !string.IsNullOrEmpty(appsettingValue) ? appsettingValue : System.Configuration.ConfigurationManager.AppSettings.Get("Keyvault");
             }
         }
     }
