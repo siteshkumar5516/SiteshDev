@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using GraphApi;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -33,7 +34,9 @@ namespace TestB2c
                 option.UseSqlServer(Configuration.GetConnectionString("connectionString"));
             });
             services.AddScoped<PermanentEmployeeManager>();
+            //IGenericRepository<PermanentEmployee
             services.AddTransient(typeof(GenericRepository<>), typeof(GenericRepository<>));
+            //services.AddSingleton<B2CGraphClient>(new B2CGraphClient("", "", ""));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,10 +51,6 @@ namespace TestB2c
 
             app.UseEndpoints(endpoints =>
             {
-                //endpoints.MapGet("/", async context =>
-                //{
-                //    await context.Response.WriteAsync("Hello World!");
-                //});
                 endpoints.MapControllers();
             });
             

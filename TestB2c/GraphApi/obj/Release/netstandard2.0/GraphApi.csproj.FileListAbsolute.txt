@@ -1,0 +1,8 @@
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\GraphApi\bin\Release\netstandard2.0\GraphApi.deps.json
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\GraphApi\bin\Release\netstandard2.0\GraphApi.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\GraphApi\bin\Release\netstandard2.0\GraphApi.pdb
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\GraphApi\obj\Release\netstandard2.0\GraphApi.csprojAssemblyReference.cache
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\GraphApi\obj\Release\netstandard2.0\GraphApi.AssemblyInfoInputs.cache
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\GraphApi\obj\Release\netstandard2.0\GraphApi.AssemblyInfo.cs
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\GraphApi\obj\Release\netstandard2.0\GraphApi.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\GraphApi\obj\Release\netstandard2.0\GraphApi.pdb

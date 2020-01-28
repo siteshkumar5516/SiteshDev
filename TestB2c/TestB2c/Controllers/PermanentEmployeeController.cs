@@ -21,7 +21,14 @@ namespace TestB2c.Controllers
         [HttpPost]
         public async Task Create(PermanentEmployee permanentEmployee)
         {
-            await _permanentEmployeeManager.AddPEmployee(permanentEmployee);
+            try
+            {
+                await _permanentEmployeeManager.AddPEmployee(permanentEmployee);
+            }
+           catch(Exception ex)
+            {
+                throw ex.InnerException;
+            }
         }
 
         [HttpPut]
@@ -35,7 +42,24 @@ namespace TestB2c.Controllers
             {
 
             }
-           
+          
+        }
+        [HttpGet]
+        
+        public async Task<IActionResult> Get()
+        {
+            var employees = await _permanentEmployeeManager.GetAll();
+            return Ok(employees);
+
+        }
+
+        [HttpGet("{id}")]
+
+        public async Task<IActionResult> Get(int id)
+        {
+            var employees = await _permanentEmployeeManager.GetById(id);
+            return Ok(employees);
+
         }
     }
 }

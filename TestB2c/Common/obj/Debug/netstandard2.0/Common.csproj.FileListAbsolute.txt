@@ -5,9 +5,9 @@ C:\Users\SiteshKumar\source\repos\TestB2c\Common\obj\Debug\netstandard2.0\Common
 C:\Users\SiteshKumar\source\repos\TestB2c\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
 C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\bin\Debug\netstandard2.0\Common.deps.json
 C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\bin\Debug\netstandard2.0\Common.pdb
 C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
 C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
-C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\bin\Debug\netstandard2.0\Common.pdb
 C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Debug\netstandard2.0\Common.dll
 C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Debug\netstandard2.0\Common.pdb
 C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache

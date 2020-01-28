@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Repository.GenericRepo
 {
-    interface IGenericRepository<TEntity> where TEntity:class
+    public interface IGenericRepository<TEntity> where TEntity:class
     {
         Task<TEntity> GetById(object Id);
         Task Insert(TEntity Entity);
         Task Update(TEntity Entity);
         Task Delete(TEntity Entity);
-        Task<IQueryable<TEntity>> Table { get; }
+        Task<IEnumerable<TEntity>> GetAll();
         Task SaveChanges();
+       
     }
 }

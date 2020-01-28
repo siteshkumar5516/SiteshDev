@@ -33,7 +33,9 @@ namespace Repository.GenericRepo
             this._dbSet = this._context.Set<TEntity>();
         }
 
-        public  Task<IQueryable<TEntity>> Table => throw new NotImplementedException();
+       
+
+        
 
         public async Task Delete(TEntity Entity)
         {
@@ -42,6 +44,8 @@ namespace Repository.GenericRepo
 
             DBSet.Remove(Entity);
         }
+
+       
 
         public async Task<TEntity> GetById(object Id)
         {
@@ -55,8 +59,7 @@ namespace Repository.GenericRepo
 
         public async Task Update(TEntity Entity)
         {
-            DbSet<TEntity> dbSet = this._context.Set<TEntity>();
-            dbSet.Attach(Entity);
+             _dbSet.Attach(Entity);
             this._context.Entry(Entity).State = EntityState.Modified; 
         }
         public virtual void Attach(TEntity entity)
@@ -64,10 +67,15 @@ namespace Repository.GenericRepo
             if (this._context.Entry(entity).State == EntityState.Detached)
                 this.DBSet.Attach(entity);
         }
-
+       
         public async Task SaveChanges()
         {
             await this._context.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<TEntity>> GetAll()
+        {
+            return await this._dbSet.ToListAsync();
         }
     }
 }

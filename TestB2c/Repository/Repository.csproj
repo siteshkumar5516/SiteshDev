@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\GraphApi\GraphApi.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,8 @@
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\bin\Release\netstandard2.0\Common.deps.json
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\bin\Release\netstandard2.0\Common.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\bin\Release\netstandard2.0\Common.pdb
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Release\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Release\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Release\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Release\netstandard2.0\Common.dll
+C:\Users\SiteshKumar\New folder\SiteshDev\TestB2c\Common\obj\Release\netstandard2.0\Common.pdb

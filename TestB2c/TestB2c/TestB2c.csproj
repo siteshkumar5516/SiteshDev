@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>1a41f52c-ffa0-41e7-957d-d41b014d3e7f</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GraphApi\GraphApi.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\Repository\Repository.csproj" />
   </ItemGroup>

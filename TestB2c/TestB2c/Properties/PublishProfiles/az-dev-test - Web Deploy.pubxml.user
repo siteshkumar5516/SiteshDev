@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACnnToonyYkW8ehz0Rby8iwAAAAACAAAAAAAQZgAAAAEAACAAAADp7O3ZAINzkqdp+aRYqhJUJeJQWxcP4JsvCI0L96BtzQAAAAAOgAAAAAIAACAAAABK+2LlIIExojdLF9f/sfhUy4YJ8rkmPyUR2Qv7nxmhn4AAAACD9Q/KHSkBbjhszhOKNuK8wQu9pcJ1fdHJU9+YNHQIYgcH857RVd8/e12f4ltRVCSyCDVnD2BCNySi/nMlSXTBas5ceM98vc2OaObwJvaSgMiFF/ZLZXJQyRmsrid3B4Y5DfsmBxLwnLk+EAnzgGOmXWUYM440PfCgpvuzBZuDg0AAAABLvhoIAQ6Gpev9b7pkP0OTicAkdctyO99iqfamjOt++4QXMSyV0tD9yKsVAU6elvCRcuewp67h6/L5zIJJ2kq7</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="connectionString">
+      <Value>Data Source=tcp:employeedbdbserver.database.windows.net,1433%3bInitial Catalog=EmployeeDb%3bUser Id=sk-dev-tst%40employeedbdbserver%3bPassword=Hobo%405516</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
