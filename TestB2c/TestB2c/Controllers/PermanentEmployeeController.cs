@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models.DbModels;
@@ -11,6 +12,7 @@ namespace TestB2c.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+  
     public class PermanentEmployeeController : ControllerBase
     {
         private PermanentEmployeeManager _permanentEmployeeManager { get; set; }
@@ -54,7 +56,7 @@ namespace TestB2c.Controllers
         }
 
         [HttpGet("{id}")]
-
+   
         public async Task<IActionResult> Get(int id)
         {
             var employees = await _permanentEmployeeManager.GetById(id);

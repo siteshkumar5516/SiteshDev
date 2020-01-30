@@ -34,6 +34,7 @@ namespace TestB2c
                 option.UseSqlServer(Configuration.GetConnectionString("connectionString"));
             });
             services.AddScoped<PermanentEmployeeManager>();
+            services.AddScoped<MedicalManager>();
             //IGenericRepository<PermanentEmployee
             services.AddTransient(typeof(GenericRepository<>), typeof(GenericRepository<>));
             //services.AddSingleton<B2CGraphClient>(new B2CGraphClient("", "", ""));
@@ -48,7 +49,7 @@ namespace TestB2c
             }
 
             app.UseRouting();
-
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

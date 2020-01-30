@@ -10,6 +10,7 @@ namespace Repository
         public DbSet<PermanentEmployee> PermanentEmployees { get; set; }
         public DbSet<TemporaryEmployee> TemporaryEmployees { get; set; }
         public DbSet<EmployStatus> EmployeesStatus { get; set; }
+        public DbSet<Medical> Medical { get; set; }
         public EmployeeContext()
         { }
 
