@@ -35,9 +35,11 @@ namespace TestB2c
             });
             services.AddScoped<PermanentEmployeeManager>();
             services.AddScoped<MedicalManager>();
+            services.AddScoped<B2CUserManager>();
             //IGenericRepository<PermanentEmployee
             services.AddTransient(typeof(GenericRepository<>), typeof(GenericRepository<>));
-            //services.AddSingleton<B2CGraphClient>(new B2CGraphClient("", "", ""));
+            services.AddSingleton<B2CGraphClient>(new B2CGraphClient("2b34c559-5fbe-4248-ad52-a7e03c47c194", "GE@MZpyrD5Teg.ttg6@XjXmejTNH?i08", "cldtestsid.onmicrosoft.com"));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +49,8 @@ namespace TestB2c
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(builder =>
+                builder.AllowAnyOrigin());
 
             app.UseRouting();
             app.UseAuthorization();

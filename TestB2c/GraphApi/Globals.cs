@@ -11,5 +11,6 @@ namespace GraphApi
         public static string aadGraphEndpoint = "https://graph.windows.net/";
         public static string aadGraphSuffix = "";
         public static string aadGraphVersion = "api-version=1.6";
+        public static readonly string AzureADResourceUrl = "https://graph.windows.net";
     }
 }

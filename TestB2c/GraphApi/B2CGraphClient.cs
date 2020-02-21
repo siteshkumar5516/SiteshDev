@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Clients.ActiveDirectory;
+﻿using Microsoft.Azure.ActiveDirectory.GraphClient;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -149,15 +150,6 @@ namespace GraphApi
             AuthenticationResult result = await authContext.AcquireTokenAsync(Globals.aadGraphResourceId, credential);
             HttpClient http = new HttpClient();
             string url = Globals.aadGraphEndpoint + tenant + api + "?" + Globals.aadGraphVersion;
-
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("POST " + url);
-            Console.WriteLine("Authorization: Bearer " + result.AccessToken.Substring(0, 80) + "...");
-            Console.WriteLine("Content-Type: application/json");
-            Console.WriteLine("");
-            Console.WriteLine(json);
-            Console.WriteLine("");
-
             HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, url);
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", result.AccessToken);
             request.Content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -213,6 +205,24 @@ namespace GraphApi
             Console.WriteLine("");
 
             return await response.Content.ReadAsStringAsync();
+        }
+
+      
+
+        /// <summary>
+        /// Get Token for Admin Azure AD.
+        /// </summary>
+        /// <returns></returns>
+        public async Task<string> GetTokenForApplicationAdminAD()
+        {
+            AuthenticationContext authenticationContext = new AuthenticationContext(clientId, false);
+            // Config for OAuth client credentials 
+            ClientCredential clientCred = new ClientCredential(clientId,
+                clientSecret);
+            AuthenticationResult authenticationResult =
+                await authenticationContext.AcquireTokenAsync(Globals.AzureADResourceUrl,
+                    clientCred);
+            return authenticationResult.AccessToken;
         }
     }
 }
